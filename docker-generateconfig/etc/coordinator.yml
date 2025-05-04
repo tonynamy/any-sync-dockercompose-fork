@@ -15,13 +15,13 @@ drpc:
 
 yamux:
     listenAddrs:
-        - %ANY_SYNC_COORDINATOR_ADDRESSES%
+        - 0.0.0.0:%ANY_SYNC_COORDINATOR_PORT%
     writeTimeoutSec: 10
     dialTimeoutSec: 10
 
 quic:
     listenAddrs:
-        - %ANY_SYNC_COORDINATOR_QUIC_ADDRESSES%
+        - 0.0.0.0:%ANY_SYNC_COORDINATOR_QUIC_PORT%
     writeTimeoutSec: 10
     dialTimeoutSec: 10
 

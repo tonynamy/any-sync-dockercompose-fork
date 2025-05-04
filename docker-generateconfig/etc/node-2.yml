@@ -8,12 +8,12 @@ drpc:
 
 yamux:
     listenAddrs:
-        - %ANY_SYNC_NODE_2_ADDRESSES%
+        - 0.0.0.0:%ANY_SYNC_NODE_2_PORT%
     writeTimeoutSec: 10
     dialTimeoutSec: 10
 quic:
     listenAddrs:
-        - %ANY_SYNC_NODE_2_QUIC_ADDRESSES%
+        - 0.0.0.0:%ANY_SYNC_NODE_2_QUIC_PORT%
     writeTimeoutSec: 10
     dialTimeoutSec: 10
 
